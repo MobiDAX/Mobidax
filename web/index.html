@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="MobiDax">
+  <link rel="apple-touch-icon" href="/icons/Icon-192.png">
+
+  <title>MobiDax</title>
+  <base href="/">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+  <div class="preloader">
+    <svg width="6em" height="4em" viewBox="0 0 278 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M35.683 62.2182L37.786 96.111C43.891 159.065 104.194 178.646 112.108 132.694C110.503 102.278 67.134 127.917 60.438 60.4248C58.059 38.0798 34.963 39.5072 35.683 62.2182ZM199.158 90.163C206.629 90.163 212.698 96.184 212.698 103.596C212.698 111.008 206.629 117.028 199.158 117.028C191.687 117.028 185.618 111.008 185.618 103.596C185.618 96.166 191.687 90.163 199.158 90.163ZM120.169 48.7124V86.887C118.269 115.802 158.243 123.598 157.948 85.021C157.874 75.7057 158.262 83.1175 158.262 64.4875C156.767 32.6262 163.759 31.7478 187.445 31.9857C214.709 32.2602 245.017 51.7137 245.017 81.5802C246.899 129.052 196.649 139.849 162.541 128.302C132.842 118.255 120.981 120.451 115.686 137.196C111.776 149.567 120.796 162.194 134.631 165.415C185.102 174.876 280.269 174.016 277.188 78.9998C275.565 28.0145 244.353 2.17407 191.669 2.17407H165.899C132.51 4.15047 122.161 19.6694 120.169 48.7124ZM25.555 0.929565H5.85403C4.24903 0.929565 2.84704 1.51527 1.90704 2.41197C1.51904 2.77797 1.20602 3.21717 1.00302 3.67467C0.818021 4.11387 0.707031 4.58977 0.707031 5.06557C0.707031 6.01717 1.13204 7.06027 2.10904 8.08517L20.501 26.9164C24.67 31.1805 29.798 36.4327 34.631 36.4327C43.43 36.4327 52.027 36.4327 60.826 36.4327C65.659 36.4327 70.787 31.1805 74.956 26.9164L93.347 8.08517C94.325 7.07857 94.768 6.03547 94.768 5.06557C94.768 4.57147 94.657 4.11387 94.454 3.67467C94.251 3.21717 93.938 2.79627 93.55 2.41197C92.609 1.51527 91.2261 0.929565 89.6031 0.929565H69.901C67.43 0.929565 64.607 1.97277 62.062 3.63807C59.479 5.34007 57.229 7.64586 55.919 10.1897L47.728 26.1295L39.538 10.1897C38.247 7.66416 35.978 5.34007 33.395 3.63807C30.85 1.95447 28.046 0.929565 25.555 0.929565Z" fill="#12A8A7"/>
+    </svg>
+
+  </div>
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('/flutter_service_worker.js');
+      });
+    }
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>

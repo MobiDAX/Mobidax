@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "861446140206",
+    "firebase_url": "https://mobidax-54f63.firebaseio.com",
+    "project_id": "mobidax-54f63",
+    "storage_bucket": "mobidax-54f63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861446140206:android:5099569a91dc7f89a9cabf",
+        "android_client_info": {
+          "package_name": "com.example.mobidax"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861446140206-7mgdv2ednpt4jjh1gj3e76npj08qdgmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqmfLOCNJgmn5oY9NIX2bwtijm2f6bHKY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861446140206-7mgdv2ednpt4jjh1gj3e76npj08qdgmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
