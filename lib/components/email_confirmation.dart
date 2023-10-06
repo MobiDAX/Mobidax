@@ -125,7 +125,7 @@ class EmailConfirmation extends StatelessWidget {
                                 ),
                                 SpaceH16(),
                                 // ignore: deprecated_member_use
-                                RaisedButton(
+                                ElevatedButton(
                                   child: Text(
                                     tr('email_verification_resend_button'),
                                     style: Theme.of(context)
@@ -176,7 +176,7 @@ class EmailConfirmation extends StatelessWidget {
                         ),
                         SpaceH16(),
                         // ignore: deprecated_member_use
-                        RaisedButton(
+                        ElevatedButton(
                           child: Text(
                             tr('email_verification_resend_button'),
                             style: Theme.of(context)

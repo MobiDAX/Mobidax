@@ -16,7 +16,7 @@ class HomePage extends StatelessWidget {
       buttons: Column(
         mainAxisSize: MainAxisSize.min,
         children: <Widget>[
-          RaisedButton(
+          ElevatedButton(
             onPressed: () {
               Navigator.of(context).pushNamed(
                 '/signInPage',
@@ -29,7 +29,7 @@ class HomePage extends StatelessWidget {
                   ),
             ),
           ),
-          RaisedButton(
+          ElevatedButton(
             onPressed: () {
               Navigator.of(context).pushNamed('/signUpPage');
             },
