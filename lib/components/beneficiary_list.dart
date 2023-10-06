@@ -226,7 +226,7 @@ class BeneficiaryList extends StatelessWidget {
                   );
                 }),
             SpaceH16(),
-            RaisedButton(
+            ElevatedButton(
               child: Text(
                 tr('add_benef_button_label'),
                 style: Theme.of(context).textTheme.bodyText2.copyWith(
