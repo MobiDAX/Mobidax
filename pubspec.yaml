@@ -18,7 +18,7 @@ dependencies:
 
   flutter_swiper: ^1.1.6 # swipe widgets tool
   flutter_native_splash: ^0.3.2 # splash screen
-  flutter_staggered_grid_view: ^0.6.2 # ui grid view
+  flutter_staggered_grid_view: ^0.4.0 # ui grid view
   pin_code_fields: ^7.4.0 # text forms
   image_picker: ^0.7.4 # image picker tool
   image_picker_for_web: ^2.0.0 # image picker tool for web
@@ -28,7 +28,6 @@ dependencies:
   fluttertoast: ^7.1.5 # toasts ui kit
   flutter_launcher_icons: ^0.8.1 # launcher icon kit
   webviewx: ^0.0.2 #webview tool
-
 
   # STATE MANAGEMENT
   mobidax_redux:
